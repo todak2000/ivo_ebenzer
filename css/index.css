@@ -1,0 +1,153 @@
+
+
+html, body{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y:hidden;
+	font-family: 'Fira Sans', sans-serif;
+}
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, .row, .col-xs-4, .col-xs-5, .col-xs-7,.container-fluid {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    
+    background-image: url("../img/Background.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    background-position: center;
+}
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 100vh;
+}
+.head{
+    width:100%;
+    height:10vh;
+    /* background-color:blue; */
+}
+.body{
+    width:100%;
+    height:80vh;
+    /* background-color:white; */
+}
+.foot{
+    width:100%;
+    height:10vh;
+    /* background-color:red; */
+}
+.logo{
+    width:100px;
+    margin:auto;
+    padding-top:2vh;
+}
+.navbar-nav>li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15px;
+    margin-left:15px;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.ref{
+    width:400px;
+    margin:auto;
+    text-align: center;
+    padding-top:2vh;
+}
+.others{
+    padding-left:10px;
+}
+.touch{
+    padding-bottom:5vh;
+}
+.slide1{
+    width:100%;
+    height:60vh;
+    padding:20px 40vh 20px 40vh;
+    /* background-color: pink; */
+}
+.slide2{
+    width:100%;
+    height:60vh;
+    padding:20px 40vh 20px 40vh;
+    /* background-color: red; */
+}
+.slide3{
+    width:100%;
+    height:60vh;
+    padding:20px 40vh 20px 40vh;
+    /* background-color: green; */
+}
+.slide4{
+    width:100%;
+    height:60vh;
+    padding:20px 40vh 20px 40vh;
+    /* background-color: black; */
+}
+.slide5{
+    width:100%;
+    height:60vh;
+    padding:20px 40vh 20px 40vh;
+    /* background-color: goldenrod; */
+}
+ .p{
+    font-size:16px;
+}
+.h1{
+    font-size:24px;
+}
+.h2{
+    font-size:45px;
+}
+.one{
+    /* background-color:aqua;  */
+    padding:10%;
+}
+.two{
+    /* background-color:rebeccapurple;  */
+    padding:10%;
+}
+.three{
+    /* background-color:gold;  */
+    padding:10%;
+}
+.four{
+    /* background-color:darkcyan;  */
+    padding:10%;
+}
+.five{
+    /* background-color:salmon;  */
+    padding:10%;
+}
+.get{
+    padding-right:30px;
+}
