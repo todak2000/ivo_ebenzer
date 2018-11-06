@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="121px" viewBox="0 0 121 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="103.001549%" y2="44.8186698%" id="linearGradient-1">
+            <stop stop-color="#03A9F4" offset="0%"></stop>
+            <stop stop-color="#46C9D6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-6.81070869%" y1="88.3771186%" x2="103.38764%" y2="42.7173307%" id="linearGradient-2">
+            <stop stop-color="#7C81ED" offset="0%"></stop>
+            <stop stop-color="#48C3D9" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="65" height="65" rx="32.5"></rect>
+        <filter x="-71.5%" y="-53.1%" width="243.1%" height="243.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0117647059   0 0 0 0 0.662745098   0 0 0 0 0.952941176  0 0 0 0.302677763 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-660.000000, -883.000000)">
+            <g id="Group" transform="translate(688.000000, 899.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <rect stroke="url(#linearGradient-2)" stroke-width="6" fill="url(#linearGradient-1)" fill-rule="evenodd" x="-3" y="-3" width="71" height="71" rx="35.5"></rect>
+                </g>
+                <g id="Group-2" transform="translate(22.651515, 25.606061)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="3">
+                    <polyline id="Line-2" stroke-linejoin="round" transform="translate(14.095644, 6.893939) scale(-1, 1) translate(-14.095644, -6.893939) " points="17.4810606 0.123106061 10.7102273 6.89393939 17.4810606 13.6647727"></polyline>
+                    <path d="M0.861742424,6.89393939 L15.7575758,6.89393939" id="Line" transform="translate(8.309659, 6.893939) scale(-1, 1) translate(-8.309659, -6.893939) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
